@@ -1,0 +1,27 @@
+{
+  "name": "koa2-uuap",
+  "version": "0.0.1",
+  "description": "Cas Client for Baidu.Inc uuap(Cas Server)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AceMood/koa2-uuap.git"
+  },
+  "keywords": [
+    "uuap",
+    "client",
+    "cas"
+  ],
+  "author": "AceMood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AceMood/koa2-uuap/issues"
+  },
+  "homepage": "https://github.com/AceMood/koa2-uuap#readme",
+  "dependencies": {
+    "xml-js": "^1.5.1"
+  }
+}
