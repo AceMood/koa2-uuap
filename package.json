@@ -1,6 +1,6 @@
 {
   "name": "koa2-uuap",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Cas Client for Baidu.Inc uuap(Cas Server)",
   "main": "index.js",
   "scripts": {
