@@ -16,9 +16,9 @@ const uuap = require('koa2-uuap');
 
 app.use(uuap.middleware({
     protocol: 'https',
-    hostname: 'itebeta.baidu.com',
+    hostname: 'casserver.com',
     port: '443',
-    validateMethod: '/serviceValidate',
+    validateMethod: '/validate',
     appKey: 'uuapclient-xxx-xxx',
     service: 'http://localhost:3000/'
 }));
