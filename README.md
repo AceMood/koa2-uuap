@@ -2,6 +2,10 @@
 
 Cas Client for Baidu.Inc uuap(Cas Server)
 
+**node version >= v7.6.0**
+
+**You must use `koa-session2` alike middleware before use uuap middleware**
+
 # Methods
 
 ## middleware
@@ -29,7 +33,7 @@ const router = new Router();
 const uuap = require('koa2-uuap');
 
 router.get('/user/info', ctx => {
-  ctx.body = uuap.getUserInfo();
+    ctx.body = uuap.getUserInfo();
 });
 
 ```
@@ -40,6 +44,6 @@ router.get('/user/info', ctx => {
 const router = new Router();
 
 router.get('/logout', uuap.logout({
-  service: 'http://localhost:3000/'
+    service: 'http://localhost:3000/'
 }));
 ```
