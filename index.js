@@ -1,9 +1,9 @@
 /**
- * @file export all api
+ * @file export all APIs
  */
 
 exports.setOptions = require('./lib/config').setOptions
-exports.getOptions = require('./lib/config').setOptions
+exports.getOptions = require('./lib/config').getOptions
 
 exports.middleware = require('./lib/middleware')
 
